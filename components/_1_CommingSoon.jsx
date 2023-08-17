@@ -21,7 +21,7 @@ export const CommingSoon = () => {
             y:0,
             duration:1,
             ease:"elastic",
-            delay:4,
+            delay:5,
         })
 
     },[])
