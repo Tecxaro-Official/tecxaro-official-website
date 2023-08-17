@@ -22,7 +22,38 @@ font-family: 'Ubuntu', sans-serif; */
 
 }
 
+#CommingSoon_1_{
+  overflow: hidden;
+}
+
+#StartingAnimations{
+
+  width: 100%;
+  height: 100svh;
+  background-color: black;
+
+  position: fixed;
+}
+
 .font-poppins{
 
   font-family: 'Poppins', sans-serif;
+}
+
+.hello{
+
+  stroke: white;
+  stroke-width: 3.2rem;
+  stroke-dasharray: 91rem;
+  /* stroke-dashoffset: 91rem; */
+
+  /* transition: 2s; */
+  animation-name: helloAnimation;
+  animation-duration: 2s;
+}
+
+@keyframes helloAnimation {
+  from{stroke-dashoffset: 91rem;}
+  to{stroke-dashoffset: 0rem;}
+  
 }
